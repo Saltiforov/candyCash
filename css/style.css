@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.candy__inner {
+    background-image: url(../images/header_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.candy__inner-btn {
+    font-family: "Bebas Neue";
+    font-weight: normal;
+    background: linear-gradient(180deg, #FE6400 0%, #FF9830 100%);
+    border: 1px solid #FFD74D;
+    box-sizing: border-box;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    position: absolute;
+    padding: 15px 50px;
+    bottom: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    cursor: pointer;
+
+    /*text */
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.candy__slider {
+    min-height: 360px;
+    background-image: url(../images/candy_slider-bg.png);
+    position: relative;
+    background-position: top;
+    background-size: cover;
+
+}
+
+.candy__slider:after {
+    background-image: url(../images/slider_candys.png);
+    background-position: bottom;
+    content: '';
+    width: 100%;
+    z-index: 200;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.swiper-container {
+    min-height: 360px;
+}
+
+.card__info {
+    color: white;
+    padding: 16px;
+}
+
+.info-slide {
+    width: 197px !important;
+    min-height: 305px;
+    background: linear-gradient(108.49deg, #3734E7 3.33%, #8126C9 91.58%);
+    box-shadow: 0 0 16px rgba(73, 0, 107, 0.25);
+    border-radius: 23px;
+}
+
+.card__info-title {
+    font-family: 'Black Han Sans';
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    padding-bottom: 17px;
+    margin: 0;
+}
+
+.card__info-text {
+    font-family: 'Source Sans Pro';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.prizes__inner {
+    background-image: url(../images/prizes-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;
+    height: 360px;
+    width: 100vw;
+    color: white;
+    background-color: #38B5D3;
+}
+
+.prizes__inner-title {
+    font-family: 'Black Han Sans';
+    text-align: right;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 75px;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 30px #38B5D3;
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+
+.prizes__inner-text {
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132.34%;
+    letter-spacing: -0.045em;
+    text-shadow: 0 0 30px #38B5D3;
+    width: 185px;
+    text-align: center;
+    margin-left: auto;
+    padding-right: 5px;
+}
+
+.prizes__inner-btn {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    background: linear-gradient(180deg, #FE6400 0%, #FF9830 100%);
+    border: 1px solid #FFD74D;
+    box-sizing: border-box;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 5px 20px;
+    outline: none;
+    cursor: pointer;
+    margin: 15px 5px 0 auto;
+    display: block;
+
+    /*text */
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.prizes__inner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.prizes__inner-name {
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    padding-left: 5px;
+}
+
+.prizes__inner-name span {
+    font-weight: bold;
+}
+
+.reward {
+    min-height: 360px;
+    width: 100vw;
+    background-image: url(../images/reward_bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.reward__inner {
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(182, 44, 0, .75);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.reward__inner-title {
+    font-family: 'Black Han Sans';
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 20px #7C38D3;
+    padding-bottom: 5px;
+}
+
+.reward__inner-descriptions {
+    font-size: 20px;
+    letter-spacing: 0.015em;
+    color: #FFFFFF;
+    text-shadow: 0 4px 23px #4200FF;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.matches {
+    min-height: 360px;
+    width: 100vw;
+    background-image: url(../images/matches_bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.matches__inner {
+    background-color: rgba(0, 94, 182, .5);
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.matches__inner-title {
+    font-family: 'Black Han Sans';
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-shadow: 0 0 20px #38AED3;
+    padding-bottom: 5px;
+}
+
+.matches__inner-descriptions {
+    font-size: 20px;
+    letter-spacing: 0.015em;
+    text-shadow: 0 4px 23px #4200FF;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 376px) {
+    .candy__inner-btn {
+        padding: 10px 45px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .prizes__inner {
+        background-position: 60% 75%;
+    }
+    .prizes__inner-title{
+        font-size: 45px;
+    }
+    .reward__inner-title,
+    .matches__inner-title{
+        font-size: 30px;
+    }
+    .reward__inner-descriptions,
+    .matches__inner-descriptions{
+        font-size: 18px;
+    }
+}
