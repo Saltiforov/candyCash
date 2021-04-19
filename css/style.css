@@ -12,11 +12,12 @@ h4 {
 }
 
 .candy__inner {
-    background-image: url(../images/header_bg.png);
-    background-size: auto 100%;
-    -moz-background-size: auto 100%;
-    -webkit-background-size: auto 100%;
-    -o-background-size: auto 100%;
+    /*background-image: url(../images/header_bg.png);*/
+    background-image: url(../images/header_bg-x.png);
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
