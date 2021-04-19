@@ -289,9 +289,11 @@ h4 {
     .prizes__inner-title{
         font-size: 45px;
     }
-    .reward__inner-title,
-    .matches__inner-title{
+    .reward__inner-title{
         font-size: 30px;
+    }
+    .matches__inner-title{
+        font-size: 22px;
     }
     .reward__inner-descriptions,
     .matches__inner-descriptions{
@@ -315,10 +317,11 @@ h4 {
         line-height: 40px;
     }
     .candy__inner{
-        background-image: url(../images/header_bg.png);
-        background-size: auto 100%;
-        -moz-background-size: auto 100%;
-        -webkit-background-size: auto 100%;
-        -o-background-size: auto 100%;
+        background-image: url(../images/header_bg-x.png);
+        background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -webkit-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
     }
+
 }
