@@ -81,7 +81,7 @@ h4 {
 }
 
 .info-slide {
-    width: 197px !important;
+    width: 250px !important;
     min-height: 305px;
     background: linear-gradient(108.49deg, #3734E7 3.33%, #8126C9 91.58%);
     box-shadow: 0 0 16px rgba(73, 0, 107, 0.25);
@@ -184,29 +184,21 @@ h4 {
 .prizes__inner-name span {
     font-weight: bold;
 }
-.prizes__inner-link{
-    font-family: 'Black Han Sans';
-    color: white;
-    text-decoration: none;
-    display: block;
-    text-align: end;
-    padding: 0 5px 20px 0;
-}
 
 .reward {
     min-height: 360px;
     width: 100vw;
-    background-image: url(../images/reward_bg.png);
-    background-position: center;
-    background-size: cover;
+    /*background-image: url(../images/reward_bg.png);*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
     position: relative;
 }
 
 .reward__inner {
-    color: white;
+    color: #001851;
     text-align: center;
     width: 100%;
-    background-color: rgba(182, 44, 0, .75);
+    /*background-color: rgba(182, 44, 0, .75);*/
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -220,15 +212,15 @@ h4 {
     line-height: 49px;
     text-align: center;
     letter-spacing: -0.02em;
-    text-shadow: 0 0 20px #7C38D3;
+    /*text-shadow: 0 0 20px #7C38D3;*/
     padding-bottom: 5px;
 }
 
 .reward__inner-descriptions {
     font-size: 20px;
     letter-spacing: 0.015em;
-    color: #FFFFFF;
-    text-shadow: 0 4px 23px #4200FF;
+    color: #001851;
+    /*text-shadow: 0 4px 23px #4200FF;*/
     font-family: 'Source Sans Pro';
     font-weight: bold;
     padding-bottom: 10px;
@@ -273,6 +265,18 @@ h4 {
     font-family: 'Source Sans Pro';
     font-weight: bold;
     padding-bottom: 10px;
+}
+.terms__inner{
+    background-color: #272C5C;
+}
+.terms__inner-link{
+    font-family: 'Black Han Sans';
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    text-decoration: none;
 }
 @media (max-width: 412px){
     .candy__inner{
@@ -324,5 +328,9 @@ h4 {
         -webkit-background-size: 100% 100%;
         -o-background-size: 100% 100%;
     }
-
+}
+@media (max-width: 341px) {
+    .info-slide{
+        width: 197px !important;
+    }
 }
